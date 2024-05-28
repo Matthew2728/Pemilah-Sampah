@@ -1,0 +1,213 @@
+/* Place your CSS styles in this file */
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color:#D2B48C;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: Black;
+    font-style: bold;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+#h7 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: Saddlebrown;
+}
+
+#p2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+
+#p3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+
+}
+
+#p4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: black;
+}
+
+#p5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+
+#p6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    color: Saddlebrown;
+}
+
+img {
+    width: 320px;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+
+header {
+    color: #fff;
+    border-bottom: 5px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(47, 241, 241);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+nav a:hover {
+    color: Saddlebrown;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nama a {
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif
+}
+
+.gambarkelompok {
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: aqua;
+    font-style: italic;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    width: 700px;
+}
+
+.mySlides img {
+    width: 1000px;
+    height: auto;
+    margin: 550px;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+   
+}
+
+.next {
+    right: 10px;
+  
+}
